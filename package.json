@@ -4,8 +4,8 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "dev": "nodemo index.js",
-        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "start": "npm run app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
